@@ -3,25 +3,48 @@ body {
   font-family: sans-serif;
 }
 
-.card {
-  width: 400px;
-  background: #fff;
-  margin: 16px auto;
-}
-
-.title {
-  background: #e3f4ff;
-}
-
-.content {
-  background: #e3f4ff;
-}
-
+.title,
+.content,
 .button-container {
   background: #e3f4ff;
 }
 
+.card,
+.title,
+.button-container {
+  padding: 8px;
+}
+
+.title,
+.content {
+  margin-bottom: 8px;
+}
+
+.card,
 button {
   background: white;
+}
+
+.card {
+  width: 400px;
+  margin: 16px auto;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.content {
+  padding: 16px 8px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  display: block;
   border: 1px solid #eee;
+  padding: 8px 24px;
+  margin: 0 auto;
 }
